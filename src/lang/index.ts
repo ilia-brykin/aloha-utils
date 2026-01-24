@@ -13,6 +13,7 @@ export { isNaN } from "./isNaN.js";
 export { isNil } from "./isNil.js";
 export { isNull } from "./isNull.js";
 export { isNumber } from "./isNumber.js";
+export { isObject } from "./isObject.js";
 export { isObjectLike } from "./isObjectLike.js";
 export { isPlainObject } from "./isPlainObject.js";
 export { isRegExp } from "./isRegExp.js";

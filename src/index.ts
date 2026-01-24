@@ -14,6 +14,7 @@ export {
   isNil,
   isNull,
   isNumber,
+  isObject,
   isObjectLike,
   isPlainObject,
   isRegExp,

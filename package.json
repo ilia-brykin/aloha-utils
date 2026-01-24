@@ -22,6 +22,7 @@
   "scripts": {
     "build": "tsc",
     "clean": "rimraf dist",
+    "lint": "eslint .",
     "prepublishOnly": "npm run clean && npm run build"
   },
 
@@ -42,7 +43,15 @@
   "license": "MIT",
 
   "devDependencies": {
-    "typescript": "^5.9.3",
-    "rimraf": "^6.1.2"
+    "@eslint/js": "^9.39.2",
+    "@stylistic/eslint-plugin": "^5.7.1",
+    "@typescript-eslint/eslint-plugin": "^8.53.1",
+    "@typescript-eslint/parser": "^8.53.1",
+    "eslint": "^9.39.2",
+    "eslint-plugin-import-group": "^2.0.2",
+    "eslint-plugin-jest": "^29.12.1",
+    "globals": "^17.1.0",
+    "rimraf": "^6.1.2",
+    "typescript": "^5.9.3"
   }
 }

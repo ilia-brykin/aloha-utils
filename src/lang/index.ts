@@ -1,0 +1,23 @@
+export { isArray } from "./isArray.js";
+export { isArrayBuffer } from "./isArrayBuffer.js";
+export { isBoolean } from "./isBoolean.js";
+export { isDate } from "./isDate.js";
+export { isElement } from "./isElement.js";
+export { isError } from "./isError.js";
+export { isFinite } from "./isFinite.js";
+export { isFunction } from "./isFunction.js";
+export { isInteger } from "./isInteger.js";
+export { isMap } from "./isMap.js";
+export { isNaN } from "./isNaN.js";
+export { isNil } from "./isNil.js";
+export { isNull } from "./isNull.js";
+export { isNumber } from "./isNumber.js";
+export { isObjectLike } from "./isObjectLike.js";
+export { isPlainObject } from "./isPlainObject.js";
+export { isRegExp } from "./isRegExp.js";
+export { isSet } from "./isSet.js";
+export { isString } from "./isString.js";
+export { isUndefined } from "./isUndefined.js";
+export { isWeakMap } from "./isWeakMap.js";
+export { isWeakSet } from "./isWeakSet.js";
+

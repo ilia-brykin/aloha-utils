@@ -1,6 +1,7 @@
 export { isArray } from "./isArray.js";
 export { isArrayBuffer } from "./isArrayBuffer.js";
 export { isBoolean } from "./isBoolean.js";
+export { isBuffer } from "./isBuffer.js";
 export { isDate } from "./isDate.js";
 export { isElement } from "./isElement.js";
 export { isError } from "./isError.js";

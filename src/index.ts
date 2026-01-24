@@ -2,6 +2,7 @@ export {
   isArray,
   isArrayBuffer,
   isBoolean,
+  isBuffer,
   isDate,
   isElement,
   isError,

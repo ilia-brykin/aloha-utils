@@ -20,6 +20,7 @@ export {
   isRegExp,
   isSet,
   isString,
+  isSymbol,
   isUndefined,
   isWeakMap,
   isWeakSet,

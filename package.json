@@ -1,0 +1,48 @@
+{
+  "name": "@aloha/utils",
+  "version": "0.1.0",
+  "description": "Modern, ESM-first utility functions for the aloha ecosystem and frontend applications",
+  "type": "module",
+  "sideEffects": false,
+
+  "files": [
+    "dist"
+  ],
+
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+
+  "keywords": [
+    "utils",
+    "helpers",
+    "esm",
+    "typescript",
+    "frontend",
+    "aloha",
+    "accessibility"
+  ],
+
+  "author": {
+    "name": "Ilia Brykin",
+    "email": "brykin.ilia@gmail.com"
+  },
+  "license": "MIT",
+
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "rimraf": "^6.1.2"
+  }
+}

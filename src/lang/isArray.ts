@@ -8,4 +8,6 @@
  * isArray([1, 2, 3]); // true
  * isArray("hello"); // false
  */
-export const isArray = (value: unknown): value is unknown[] => Array.isArray(value);
+export const isArray = (value: unknown): value is unknown[] => {
+  return Array.isArray(value);
+};

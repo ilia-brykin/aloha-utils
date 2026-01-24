@@ -2,9 +2,10 @@
   "name": "@aloha/utils-tests",
   "private": true,
   "scripts": {
-    "test": "jest"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js -c jest.config.cjs --runInBand"
   },
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^30.2.0",
+    "jest-environment-jsdom": "^30.2.0"
   }
 }

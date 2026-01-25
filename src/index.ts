@@ -38,6 +38,7 @@ export {
   isEmptyString,
   isNonEmptyString,
   kebabCase,
+  pascalCase,
   snakeCase,
 } from "./string/index.js";
 export {

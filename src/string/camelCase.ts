@@ -15,7 +15,7 @@ export const camelCase = (value: unknown): string => {
   }
 
   const normalized = value.replace(
-    /([\p{Ll}\p{Nd}])([\p{Lu}])/gu,
+    /([\p{Ll}\p{Nd}])(\p{Lu})/gu,
     "$1 $2",
   );
   const parts = normalized.match(/[\p{L}\p{N}]+/gu);

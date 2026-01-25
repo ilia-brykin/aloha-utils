@@ -17,6 +17,7 @@ export {
   isIterable,
   isMap,
   isNaN,
+  isNative,
   isNil,
   isNull,
   isNumber,

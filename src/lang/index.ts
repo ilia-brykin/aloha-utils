@@ -16,6 +16,7 @@ export { isInteger } from "./isInteger.js";
 export { isIterable } from "./isIterable.js";
 export { isMap } from "./isMap.js";
 export { isNaN } from "./isNaN.js";
+export { isNative } from "./isNative.js";
 export { isNil } from "./isNil.js";
 export { isNull } from "./isNull.js";
 export { isNumber } from "./isNumber.js";

@@ -59,6 +59,7 @@ export {
   minBy,
   round,
   sum,
+  sumAbs,
   sumBy,
   toDegrees,
   toRadians,

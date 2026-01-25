@@ -20,6 +20,7 @@ export { min } from "./min.js";
 export { minBy } from "./minBy.js";
 export { round } from "./round.js";
 export { sum } from "./sum.js";
+export { sumAbs } from "./sumAbs.js";
 export { sumBy } from "./sumBy.js";
 export { toDegrees } from "./toDegrees.js";
 export { toRadians } from "./toRadians.js";

@@ -32,4 +32,5 @@ export { isUndefined } from "./isUndefined.js";
 export { isWeakMap } from "./isWeakMap.js";
 export { isWeakSet } from "./isWeakSet.js";
 export { toString } from "./toString.js";
+export { toNumber } from "./toNumber.js";
 

@@ -43,6 +43,7 @@ export {
   isFloat,
   isFloatNonNegative,
   isFloatPositive,
+  isEven,
   isInteger,
   isIntegerNonNegative,
   isIntegerPositive,
@@ -51,4 +52,5 @@ export {
   min,
   round,
   sum,
+  isOdd,
 } from "./math/index.js";

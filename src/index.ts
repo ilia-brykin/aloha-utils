@@ -42,6 +42,7 @@ export {
   ceil,
   floor,
   max,
+  mean,
   min,
   round,
   sum,

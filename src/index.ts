@@ -41,4 +41,5 @@ export {
 export {
   max,
   min,
+  sum,
 } from "./math/index.js";

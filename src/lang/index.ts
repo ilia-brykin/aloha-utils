@@ -7,6 +7,7 @@ export { isBuffer } from "./isBuffer.js";
 export { isDate } from "./isDate.js";
 export { isElement } from "./isElement.js";
 export { isError } from "./isError.js";
+export { isFalsyNonEmptyString } from "./isFalsyNonEmptyString.js";
 export { isFalsyNonZero } from "./isFalsyNonZero.js";
 export { isFinite } from "./isFinite.js";
 export { isFunction } from "./isFunction.js";

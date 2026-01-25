@@ -8,6 +8,7 @@ export {
   isDate,
   isElement,
   isError,
+  isFalsyNonEmptyString,
   isFalsyNonZero,
   isFinite,
   isFunction,

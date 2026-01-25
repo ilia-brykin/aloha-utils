@@ -57,5 +57,7 @@ export {
   round,
   sum,
   sumBy,
+  toDegrees,
+  toRadians,
   isOdd,
 } from "./math/index.js";

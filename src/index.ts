@@ -29,3 +29,7 @@ export {
   isWeakMap,
   isWeakSet,
 } from "./lang/index.js";
+export {
+  isEmptyString,
+  isNonEmptyString,
+} from "./string/index.js";

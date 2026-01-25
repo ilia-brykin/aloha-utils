@@ -1,4 +1,5 @@
 export { ceil } from "./ceil.js";
+export { clamp } from "./clamp.js";
 export { floor } from "./floor.js";
 export { isEven } from "./isEven.js";
 export { isFloat } from "./isFloat.js";

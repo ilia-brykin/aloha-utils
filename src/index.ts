@@ -39,6 +39,7 @@ export {
 } from "./string/index.js";
 export {
   ceil,
+  clamp,
   floor,
   isFloat,
   isFloatNonNegative,

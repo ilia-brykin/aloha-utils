@@ -53,6 +53,7 @@ export {
   meanBy,
   mean,
   median,
+  medianBy,
   min,
   minBy,
   round,

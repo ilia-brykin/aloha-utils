@@ -39,7 +39,10 @@ export {
   isNonEmptyString,
 } from "./string/index.js";
 export {
+  ceil,
+  floor,
   max,
   min,
+  round,
   sum,
 } from "./math/index.js";

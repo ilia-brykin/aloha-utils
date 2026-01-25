@@ -3,17 +3,17 @@ import {
 } from "../shared/iteratee.js";
 
 /**
- * Returns the element with the minimum numeric iteratee value.
+ * Returns the element with the maximum numeric iteratee value.
  *
  * @param {Array} array - The array to inspect.
  * @param {Function|string|Array} iteratee - The iteratee function or property path.
- * @return {*} The element with the minimum numeric iteratee value or undefined.
+ * @return {*} The element with the maximum numeric iteratee value or undefined.
  *
  * @example
- * minBy([{ n: 1 }, { n: 2 }], o => o.n); // { n: 1 }
- * minBy([{ n: 1 }, { n: 2 }], "n"); // { n: 1 }
+ * maxBy([{ n: 1 }, { n: 2 }], o => o.n); // { n: 2 }
+ * maxBy([{ n: 1 }, { n: 2 }], "n"); // { n: 2 }
  */
-export const minBy = <T>(
+export const maxBy = <T>(
   array: T[],
   iteratee: ((value: T) => unknown) | string | Array<string | number>,
 ): T | undefined => {
@@ -32,7 +32,7 @@ export const minBy = <T>(
       continue;
     }
 
-    if (resultValue === undefined || value < resultValue) {
+    if (resultValue === undefined || value > resultValue) {
       resultValue = value;
       result = item;
     }

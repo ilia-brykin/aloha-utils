@@ -48,10 +48,13 @@ export {
   isIntegerNonNegative,
   isIntegerPositive,
   max,
+  maxBy,
+  meanBy,
   mean,
   min,
   minBy,
   round,
   sum,
+  sumBy,
   isOdd,
 } from "./math/index.js";

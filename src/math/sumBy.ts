@@ -3,28 +3,28 @@ import {
 } from "../shared/iteratee.js";
 
 /**
- * Returns the element with the minimum numeric iteratee value.
+ * Returns the sum of numeric iteratee values.
  *
  * @param {Array} array - The array to inspect.
  * @param {Function|string|Array} iteratee - The iteratee function or property path.
- * @return {*} The element with the minimum numeric iteratee value or undefined.
+ * @return {number|undefined} The sum or undefined.
  *
  * @example
- * minBy([{ n: 1 }, { n: 2 }], o => o.n); // { n: 1 }
- * minBy([{ n: 1 }, { n: 2 }], "n"); // { n: 1 }
+ * sumBy([{ n: 1 }, { n: 2 }], o => o.n); // 3
+ * sumBy([{ n: 1 }, { n: 2 }], "n"); // 3
  */
-export const minBy = <T>(
+export const sumBy = <T>(
   array: T[],
   iteratee: ((value: T) => unknown) | string | Array<string | number>,
-): T | undefined => {
+): number | undefined => {
   if (!Array.isArray(array) || array.length === 0) {
     return undefined;
   }
 
   const getValue = resolveIteratee(iteratee);
 
-  let result: T | undefined;
-  let resultValue: number | undefined;
+  let total = 0;
+  let hasNumber = false;
 
   for (const item of array) {
     const value = getValue(item);
@@ -32,11 +32,9 @@ export const minBy = <T>(
       continue;
     }
 
-    if (resultValue === undefined || value < resultValue) {
-      resultValue = value;
-      result = item;
-    }
+    total += value;
+    hasNumber = true;
   }
 
-  return result;
+  return hasNumber ? total : undefined;
 };

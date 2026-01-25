@@ -52,6 +52,7 @@ export {
   maxBy,
   meanBy,
   mean,
+  median,
   min,
   minBy,
   round,

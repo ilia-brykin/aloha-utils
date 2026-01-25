@@ -13,6 +13,7 @@ export { maxBy } from "./maxBy.js";
 export { max } from "./max.js";
 export { meanBy } from "./meanBy.js";
 export { mean } from "./mean.js";
+export { median } from "./median.js";
 export { min } from "./min.js";
 export { minBy } from "./minBy.js";
 export { round } from "./round.js";

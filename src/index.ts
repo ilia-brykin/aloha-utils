@@ -60,6 +60,7 @@ export {
   round,
   sum,
   sumAbs,
+  sumAbsBy,
   sumBy,
   toDegrees,
   toRadians,

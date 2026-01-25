@@ -34,6 +34,7 @@ export {
   isWeakSet,
 } from "./lang/index.js";
 export {
+  camelCase,
   isEmptyString,
   isNonEmptyString,
 } from "./string/index.js";

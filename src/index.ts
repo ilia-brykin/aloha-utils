@@ -34,6 +34,7 @@ export {
   isWeakSet,
   toString,
   toNumber,
+  toInteger,
 } from "./lang/index.js";
 export {
   camelCase,

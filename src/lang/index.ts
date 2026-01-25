@@ -25,6 +25,7 @@ export { isObjectLike } from "./isObjectLike.js";
 export { isPlainObject } from "./isPlainObject.js";
 export { isPromise } from "./isPromise.js";
 export { isRegExp } from "./isRegExp.js";
+export { isSafeInteger } from "./isSafeInteger.js";
 export { isSet } from "./isSet.js";
 export { isString } from "./isString.js";
 export { isSymbol } from "./isSymbol.js";

@@ -26,6 +26,7 @@ export {
   isPlainObject,
   isPromise,
   isRegExp,
+  isSafeInteger,
   isSet,
   isString,
   isSymbol,

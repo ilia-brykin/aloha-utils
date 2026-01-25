@@ -1,3 +1,7 @@
+import {
+  toLowerWords,
+} from "./_shared.js";
+
 /**
  * Converts a string to camelCase.
  *
@@ -14,17 +18,12 @@ export const camelCase = (value: unknown): string => {
     return "";
   }
 
-  const normalized = value.replace(
-    /([\p{Ll}\p{Nd}])(\p{Lu})/gu,
-    "$1 $2",
-  );
-  const parts = normalized.match(/[\p{L}\p{N}]+/gu);
-  if (!parts) {
+  const parts = toLowerWords(value);
+  if (parts.length === 0) {
     return "";
   }
 
   return parts
-    .map(part => part.toLowerCase())
     .map((part, index) => {
       if (index === 0) {
         return part;

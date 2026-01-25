@@ -9,6 +9,7 @@ export { isInteger } from "./isInteger.js";
 export { isIntegerNonNegative } from "./isIntegerNonNegative.js";
 export { isIntegerPositive } from "./isIntegerPositive.js";
 export { isOdd } from "./isOdd.js";
+export { inRange } from "./inRange.js";
 export { maxBy } from "./maxBy.js";
 export { max } from "./max.js";
 export { meanBy } from "./meanBy.js";

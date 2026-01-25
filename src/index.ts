@@ -45,6 +45,7 @@ export {
   isFloatNonNegative,
   isFloatPositive,
   isEven,
+  inRange,
   isInteger,
   isIntegerNonNegative,
   isIntegerPositive,

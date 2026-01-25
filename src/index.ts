@@ -32,6 +32,7 @@ export {
   isUndefined,
   isWeakMap,
   isWeakSet,
+  toString,
 } from "./lang/index.js";
 export {
   camelCase,

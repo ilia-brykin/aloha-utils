@@ -38,3 +38,7 @@ export {
   isEmptyString,
   isNonEmptyString,
 } from "./string/index.js";
+export {
+  max,
+  min,
+} from "./math/index.js";

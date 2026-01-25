@@ -8,4 +8,6 @@
  * isInteger(10); // true
  * isInteger(10.5); // false
  */
-export { isInteger } from "../math/isInteger.js";
+export const isInteger = (value: unknown): value is number => {
+  return typeof value === "number" && Number.isInteger(value);
+};

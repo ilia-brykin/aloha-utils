@@ -1,5 +1,11 @@
 export { ceil } from "./ceil.js";
 export { floor } from "./floor.js";
+export { isFloat } from "./isFloat.js";
+export { isFloatNonNegative } from "./isFloatNonNegative.js";
+export { isFloatPositive } from "./isFloatPositive.js";
+export { isInteger } from "./isInteger.js";
+export { isIntegerNonNegative } from "./isIntegerNonNegative.js";
+export { isIntegerPositive } from "./isIntegerPositive.js";
 export { max } from "./max.js";
 export { mean } from "./mean.js";
 export { min } from "./min.js";

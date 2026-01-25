@@ -12,7 +12,6 @@ export { isFalsyNonEmptyString } from "./isFalsyNonEmptyString.js";
 export { isFalsyNonZero } from "./isFalsyNonZero.js";
 export { isFinite } from "./isFinite.js";
 export { isFunction } from "./isFunction.js";
-export { isInteger } from "./isInteger.js";
 export { isIterable } from "./isIterable.js";
 export { isMap } from "./isMap.js";
 export { isNaN } from "./isNaN.js";

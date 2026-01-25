@@ -37,6 +37,7 @@ export {
   camelCase,
   isEmptyString,
   isNonEmptyString,
+  snakeCase,
 } from "./string/index.js";
 export {
   ceil,

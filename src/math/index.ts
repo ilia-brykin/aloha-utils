@@ -11,5 +11,6 @@ export { isOdd } from "./isOdd.js";
 export { max } from "./max.js";
 export { mean } from "./mean.js";
 export { min } from "./min.js";
+export { minBy } from "./minBy.js";
 export { round } from "./round.js";
 export { sum } from "./sum.js";

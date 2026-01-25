@@ -50,6 +50,7 @@ export {
   max,
   mean,
   min,
+  minBy,
   round,
   sum,
   isOdd,

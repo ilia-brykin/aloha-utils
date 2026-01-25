@@ -1,5 +1,6 @@
 export {
   isArray,
+  isArguments,
   isArrayLike,
   isArrayBuffer,
   isAsyncFunction,

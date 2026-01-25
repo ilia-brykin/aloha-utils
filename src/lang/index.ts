@@ -1,4 +1,5 @@
 export { isArray } from "./isArray.js";
+export { isArguments } from "./isArguments.js";
 export { isArrayLike } from "./isArrayLike.js";
 export { isArrayBuffer } from "./isArrayBuffer.js";
 export { isAsyncFunction } from "./isAsyncFunction.js";

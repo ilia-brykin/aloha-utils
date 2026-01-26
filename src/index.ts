@@ -77,3 +77,6 @@ export {
   toRadians,
   isOdd,
 } from "./math/index.js";
+export {
+  get,
+} from "./object/index.js";

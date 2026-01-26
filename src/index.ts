@@ -32,6 +32,7 @@ export {
   isUndefined,
   isWeakMap,
   isWeakSet,
+  toArray,
   toString,
   toNumber,
   toInteger,

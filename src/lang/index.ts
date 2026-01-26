@@ -31,6 +31,7 @@ export { isSymbol } from "./isSymbol.js";
 export { isUndefined } from "./isUndefined.js";
 export { isWeakMap } from "./isWeakMap.js";
 export { isWeakSet } from "./isWeakSet.js";
+export { toArray } from "./toArray.js";
 export { toString } from "./toString.js";
 export { toNumber } from "./toNumber.js";
 export { toInteger } from "./toInteger.js";

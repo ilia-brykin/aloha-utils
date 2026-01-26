@@ -33,6 +33,7 @@ export { isWeakMap } from "./isWeakMap.js";
 export { isWeakSet } from "./isWeakSet.js";
 export { toArray } from "./toArray.js";
 export { toString } from "./toString.js";
+export { toPlainObject } from "./toPlainObject.js";
 export { toNumber } from "./toNumber.js";
 export { toInteger } from "./toInteger.js";
 export { toSafeInteger } from "./toSafeInteger.js";

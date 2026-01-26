@@ -34,6 +34,7 @@ export {
   isWeakSet,
   toArray,
   toString,
+  toPlainObject,
   toNumber,
   toInteger,
   toSafeInteger,

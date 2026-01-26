@@ -34,4 +34,5 @@ export { isWeakSet } from "./isWeakSet.js";
 export { toString } from "./toString.js";
 export { toNumber } from "./toNumber.js";
 export { toInteger } from "./toInteger.js";
+export { toSafeInteger } from "./toSafeInteger.js";
 

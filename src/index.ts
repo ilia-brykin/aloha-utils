@@ -35,6 +35,7 @@ export {
   toString,
   toNumber,
   toInteger,
+  toSafeInteger,
 } from "./lang/index.js";
 export {
   camelCase,

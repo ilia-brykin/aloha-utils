@@ -49,6 +49,7 @@ export {
   capitalize,
   deburr,
   cyrillicToLatin,
+  endsWith,
   isEmptyString,
   isNonEmptyString,
   kebabCase,

@@ -58,6 +58,7 @@ export {
   pad,
   padEnd,
   padStart,
+  repeat,
   isEmptyString,
   isNonEmptyString,
   kebabCase,

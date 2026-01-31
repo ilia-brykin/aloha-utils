@@ -46,6 +46,7 @@ export {
 } from "./lang/index.js";
 export {
   camelCase,
+  capitalize,
   isEmptyString,
   isNonEmptyString,
   kebabCase,

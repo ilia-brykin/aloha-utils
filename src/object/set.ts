@@ -1,9 +1,10 @@
 import {
-  toPath,
-} from "../shared/path.js";
-import {
   isObjectLike,
 } from "../lang/isObjectLike.js";
+import {
+  toPath,
+} from "../shared/path.js";
+
 
 type PathKey = string | number;
 

@@ -6,3 +6,4 @@ export { kebabCase } from "./kebabCase.js";
 export { pascalCase } from "./pascalCase.js";
 export { capitalize } from "./capitalize.js";
 export { deburr } from "./deburr.js";
+export { cyrillicToLatin } from "./cyrillicToLatin.js";

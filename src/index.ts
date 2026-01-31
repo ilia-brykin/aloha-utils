@@ -51,6 +51,7 @@ export {
   cyrillicToLatin,
   endsWith,
   startsWith,
+  escape,
   isEmptyString,
   isNonEmptyString,
   kebabCase,

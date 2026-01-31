@@ -47,6 +47,7 @@ export {
 export {
   camelCase,
   capitalize,
+  deburr,
   isEmptyString,
   isNonEmptyString,
   kebabCase,

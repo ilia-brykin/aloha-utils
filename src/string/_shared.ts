@@ -9,3 +9,7 @@ export const splitWords = (value: string): string[] => {
 export const toLowerWords = (value: string): string[] => {
   return splitWords(value).map(part => part.toLowerCase());
 };
+
+export const toWords = (value: string): string[] => {
+  return splitWords(value);
+};

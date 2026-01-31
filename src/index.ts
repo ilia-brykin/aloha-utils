@@ -53,6 +53,7 @@ export {
   startsWith,
   escape,
   escapeRegExp,
+  lowerCase,
   isEmptyString,
   isNonEmptyString,
   kebabCase,

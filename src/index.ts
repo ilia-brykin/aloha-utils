@@ -79,4 +79,5 @@ export {
 } from "./math/index.js";
 export {
   get,
+  set,
 } from "./object/index.js";

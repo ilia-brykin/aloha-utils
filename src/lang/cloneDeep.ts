@@ -3,7 +3,7 @@ import {
 } from "./_cloneBase.js";
 
 /**
- * Creates a shallow clone of value.
+ * Creates a deep clone of value.
  *
  * Note: This method is loosely based on the structured clone algorithm and
  * supports cloning arrays, array buffers, booleans, date objects, maps,
@@ -13,13 +13,13 @@ import {
  * objects, functions, DOM nodes, and WeakMaps.
  *
  * @param {*} value - The value to clone.
- * @return {*} Returns the cloned value.
+ * @return {*} Returns the deep cloned value.
  *
  * @example
  * const objects = [{ a: 1 }, { b: 2 }];
- * const shallow = clone(objects);
- * shallow[0] === objects[0]; // true
+ * const deep = cloneDeep(objects);
+ * deep[0] === objects[0]; // false
  */
-export function clone(value: unknown): unknown {
-  return cloneBase(value, { deep: false });
-}
+export const cloneDeep = (value: unknown): unknown => {
+  return cloneBase(value, { deep: true });
+};

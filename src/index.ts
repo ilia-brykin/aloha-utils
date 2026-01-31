@@ -8,6 +8,7 @@ export {
   isBuffer,
   castArray,
   clone,
+  cloneDeep,
   isDate,
   isElement,
   isError,

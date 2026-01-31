@@ -12,3 +12,4 @@ export { startsWith } from "./startsWith.js";
 export { escape } from "./escape.js";
 export { escapeRegExp } from "./escapeRegExp.js";
 export { lowerCase } from "./lowerCase.js";
+export { lowerFirst } from "./lowerFirst.js";

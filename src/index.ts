@@ -54,6 +54,7 @@ export {
   escape,
   escapeRegExp,
   lowerCase,
+  lowerFirst,
   isEmptyString,
   isNonEmptyString,
   kebabCase,

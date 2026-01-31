@@ -72,6 +72,7 @@ export {
   medianBy,
   min,
   minBy,
+  random,
   round,
   sum,
   sumAbs,

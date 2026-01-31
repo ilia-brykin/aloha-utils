@@ -18,6 +18,7 @@ export { median } from "./median.js";
 export { medianBy } from "./medianBy.js";
 export { min } from "./min.js";
 export { minBy } from "./minBy.js";
+export { random } from "./random.js";
 export { round } from "./round.js";
 export { sum } from "./sum.js";
 export { sumAbs } from "./sumAbs.js";

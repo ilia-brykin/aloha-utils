@@ -6,6 +6,7 @@ export {
   isAsyncFunction,
   isBoolean,
   isBuffer,
+  castArray,
   isDate,
   isElement,
   isError,

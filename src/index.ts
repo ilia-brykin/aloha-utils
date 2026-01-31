@@ -50,6 +50,7 @@ export {
   deburr,
   cyrillicToLatin,
   endsWith,
+  startsWith,
   isEmptyString,
   isNonEmptyString,
   kebabCase,

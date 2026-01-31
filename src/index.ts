@@ -7,6 +7,7 @@ export {
   isBoolean,
   isBuffer,
   castArray,
+  clone,
   isDate,
   isElement,
   isError,

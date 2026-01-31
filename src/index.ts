@@ -52,6 +52,7 @@ export {
   endsWith,
   startsWith,
   escape,
+  escapeRegExp,
   isEmptyString,
   isNonEmptyString,
   kebabCase,

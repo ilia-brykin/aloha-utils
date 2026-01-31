@@ -10,3 +10,4 @@ export { cyrillicToLatin } from "./cyrillicToLatin.js";
 export { endsWith } from "./endsWith.js";
 export { startsWith } from "./startsWith.js";
 export { escape } from "./escape.js";
+export { escapeRegExp } from "./escapeRegExp.js";

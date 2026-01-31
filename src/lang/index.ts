@@ -8,6 +8,7 @@ export { isArrayBuffer } from "./isArrayBuffer.js";
 export { isAsyncFunction } from "./isAsyncFunction.js";
 export { isBoolean } from "./isBoolean.js";
 export { isBuffer } from "./isBuffer.js";
+export { eq } from "./eq.js";
 export { isDate } from "./isDate.js";
 export { isElement } from "./isElement.js";
 export { isError } from "./isError.js";

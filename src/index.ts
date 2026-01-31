@@ -6,6 +6,7 @@ export {
   isAsyncFunction,
   isBoolean,
   isBuffer,
+  eq,
   castArray,
   clone,
   cloneDeep,

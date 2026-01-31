@@ -13,3 +13,6 @@ export { escape } from "./escape.js";
 export { escapeRegExp } from "./escapeRegExp.js";
 export { lowerCase } from "./lowerCase.js";
 export { lowerFirst } from "./lowerFirst.js";
+export { pad } from "./pad.js";
+export { padEnd } from "./padEnd.js";
+export { padStart } from "./padStart.js";

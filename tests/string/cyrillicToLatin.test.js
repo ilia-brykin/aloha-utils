@@ -66,4 +66,9 @@ describe("cyrillicToLatin function", () => {
     expect(cyrillicToLatin(null)).toBe("");
     expect(cyrillicToLatin(undefined)).toBe("");
   });
+
+  it("should handle full Russian alphabet", () => {
+    const alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+    expect(cyrillicToLatin(alphabet)).toBe("abvgdeyozhziyklmnoprstufkhtschshshchyeyuya");
+  });
 });

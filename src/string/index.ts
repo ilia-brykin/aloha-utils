@@ -25,3 +25,4 @@ export { trim } from "./trim.js";
 export { trimEnd } from "./trimEnd.js";
 export { trimStart } from "./trimStart.js";
 export { truncate } from "./truncate.js";
+export { unescape } from "./unescape.js";

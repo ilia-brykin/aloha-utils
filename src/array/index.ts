@@ -58,3 +58,7 @@ export { zip } from "./zip.js";
 export { zipObject } from "./zipObject.js";
 export { zipObjectDeep } from "./zipObjectDeep.js";
 export { zipWith } from "./zipWith.js";
+export { without } from "./without.js";
+export { xor } from "./xor.js";
+export { xorBy } from "./xorBy.js";
+export { xorWith } from "./xorWith.js";

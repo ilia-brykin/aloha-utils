@@ -62,6 +62,7 @@ export {
   split,
   startCase,
   toLower,
+  toUpper,
   isEmptyString,
   isNonEmptyString,
   kebabCase,

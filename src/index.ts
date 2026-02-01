@@ -60,6 +60,7 @@ export {
   padStart,
   repeat,
   split,
+  startCase,
   isEmptyString,
   isNonEmptyString,
   kebabCase,

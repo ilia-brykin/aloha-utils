@@ -205,3 +205,16 @@ export {
   some,
   sortBy,
 } from "./collection/index.js";
+export {
+  after,
+  ary,
+  before,
+  bind,
+  bindKey,
+  curry,
+  curryRight,
+  debounce,
+  defer,
+  delay,
+  flip,
+} from "./function/index.js";

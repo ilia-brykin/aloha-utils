@@ -61,6 +61,7 @@ export {
   repeat,
   split,
   startCase,
+  toLower,
   isEmptyString,
   isNonEmptyString,
   kebabCase,

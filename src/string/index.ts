@@ -19,3 +19,4 @@ export { padStart } from "./padStart.js";
 export { repeat } from "./repeat.js";
 export { split } from "./split.js";
 export { startCase } from "./startCase.js";
+export { toLower } from "./toLower.js";

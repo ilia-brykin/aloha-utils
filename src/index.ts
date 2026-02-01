@@ -53,6 +53,12 @@ export {
   union,
   unionBy,
   unionWith,
+  unzip,
+  unzipWith,
+  zip,
+  zipObject,
+  zipObjectDeep,
+  zipWith,
 } from "./array/index.js";
 export {
   isArray,

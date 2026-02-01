@@ -34,6 +34,14 @@ export {
   remove,
   reverse,
   slice,
+  sortedIndex,
+  sortedIndexBy,
+  sortedIndexOf,
+  sortedLastIndex,
+  sortedLastIndexBy,
+  sortedLastIndexOf,
+  sortedUniq,
+  sortedUniqBy,
 } from "./array/index.js";
 export {
   isArray,

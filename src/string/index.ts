@@ -21,3 +21,6 @@ export { split } from "./split.js";
 export { startCase } from "./startCase.js";
 export { toLower } from "./toLower.js";
 export { toUpper } from "./toUpper.js";
+export { trim } from "./trim.js";
+export { trimEnd } from "./trimEnd.js";
+export { trimStart } from "./trimStart.js";

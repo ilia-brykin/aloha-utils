@@ -22,13 +22,18 @@ export {
   intersection,
   intersectionBy,
   intersectionWith,
+  join,
   last,
   lastIndexOf,
+  nth,
   pull,
   pullAll,
   pullAllBy,
   pullAllWith,
   pullAt,
+  remove,
+  reverse,
+  slice,
 } from "./array/index.js";
 export {
   isArray,

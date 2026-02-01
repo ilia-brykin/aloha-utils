@@ -1,5 +1,6 @@
 export {
   chunk,
+  compact,
 } from "./array/index.js";
 export {
   isArray,

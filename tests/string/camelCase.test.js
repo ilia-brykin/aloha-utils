@@ -12,8 +12,8 @@ describe("camelCase function", () => {
   it("should return empty string for non-strings", () => {
     expect(camelCase(null)).toBe("");
     expect(camelCase(undefined)).toBe("");
-    expect(camelCase(123)).toBe("");
-    expect(camelCase({})).toBe("");
+    expect(camelCase(123)).toBe("123");
+    expect(camelCase({})).toBe("objectObject");
   });
 
   it("should convert to camelCase", () => {

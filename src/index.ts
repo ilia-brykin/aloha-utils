@@ -2,6 +2,8 @@ export {
   chunk,
   compact,
   concat,
+  difference,
+  differenceBy,
 } from "./array/index.js";
 export {
   isArray,

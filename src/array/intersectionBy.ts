@@ -1,30 +1,15 @@
 import {
-  eq,
   isArray,
 } from "../lang";
+import {
+  includesSameValueZero,
+} from "./_compareHelpers.js";
+import {
+  resolveArrayIteratee,
+  type ArrayIteratee,
+} from "./_iterateeHelpers.js";
 
-type Iteratee = ((value: unknown) => unknown) | string;
-
-const identity = (value: unknown): unknown => value;
-
-const resolveIteratee = (iteratee?: Iteratee): ((value: unknown) => unknown) => {
-  if (typeof iteratee === "function") {
-    return iteratee;
-  }
-
-  if (typeof iteratee === "string") {
-    return (value: unknown) => {
-      if (value !== null && typeof value === "object") {
-        return (value as Record<string, unknown>)[iteratee];
-      }
-      return undefined;
-    };
-  }
-
-  return identity;
-};
-
-const includesSameValueZero = (array: unknown[], value: unknown): boolean => array.some(item => eq(item, value));
+type Iteratee = ArrayIteratee;
 
 /**
  * This method is like intersection except that it accepts iteratee which is
@@ -69,7 +54,7 @@ export function intersectionBy<T>(
     return [];
   }
 
-  const mapper = resolveIteratee(resolvedIteratee);
+  const mapper = resolveArrayIteratee(resolvedIteratee);
   const restCriteria = rest.map(array => array.map(item => mapper(item)));
   const seenCriteria: unknown[] = [];
   const result: T[] = [];

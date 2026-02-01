@@ -5,28 +5,11 @@ import {
 import {
   flattenValues,
 } from "./_arrayHelpers.js";
+import {
+  resolveArrayIteratee,
+  type ArrayIteratee,
+} from "./_iterateeHelpers.js";
 
-
-type Iteratee = ((value: unknown) => unknown) | string;
-
-const identity = (value: unknown): unknown => value;
-
-const resolveIteratee = (iteratee?: Iteratee): ((value: unknown) => unknown) => {
-  if (typeof iteratee === "function") {
-    return iteratee;
-  }
-
-  if (typeof iteratee === "string") {
-    return (value: unknown) => {
-      if (value !== null && typeof value === "object") {
-        return (value as Record<string, unknown>)[iteratee];
-      }
-      return undefined;
-    };
-  }
-
-  return identity;
-};
 
 /**
  * This method is like difference except that it accepts iteratee which is
@@ -45,7 +28,7 @@ const resolveIteratee = (iteratee?: Iteratee): ((value: unknown) => unknown) => 
 export const differenceBy = <T>(
   array: T[],
   values?: unknown[] | unknown,
-  iteratee?: Iteratee,
+  iteratee?: ArrayIteratee,
 ): T[] => {
   if (!isArray(array)) {
     return [];
@@ -69,7 +52,7 @@ export const differenceBy = <T>(
     return array.slice();
   }
 
-  const mapper = resolveIteratee(iteratee);
+  const mapper = resolveArrayIteratee(iteratee);
   const excludeSet = excludes.map(value => mapper(value));
 
   return array.filter(item => {

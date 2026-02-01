@@ -2,28 +2,10 @@ import {
   eq,
   isArray,
 } from "../lang";
-
-
-type Iteratee = ((value: unknown) => unknown) | string;
-
-const identity = (value: unknown): unknown => value;
-
-const resolveIteratee = (iteratee?: Iteratee): ((value: unknown) => unknown) => {
-  if (typeof iteratee === "function") {
-    return iteratee;
-  }
-
-  if (typeof iteratee === "string") {
-    return (value: unknown) => {
-      if (value !== null && typeof value === "object") {
-        return (value as Record<string, unknown>)[iteratee];
-      }
-      return undefined;
-    };
-  }
-
-  return identity;
-};
+import {
+  resolveArrayIteratee,
+  type ArrayIteratee,
+} from "./_iterateeHelpers.js";
 
 /**
  * This method is like pullAll except that it accepts iteratee which is
@@ -43,13 +25,13 @@ const resolveIteratee = (iteratee?: Iteratee): ((value: unknown) => unknown) => 
 export const pullAllBy = <T>(
   array: T[],
   values: unknown[],
-  iteratee?: Iteratee,
+  iteratee?: ArrayIteratee,
 ): T[] => {
   if (!isArray(array) || !isArray(values) || values.length === 0) {
     return array;
   }
 
-  const mapper = resolveIteratee(iteratee);
+  const mapper = resolveArrayIteratee(iteratee);
   const excludes = values.map(value => mapper(value));
 
   for (let i = array.length - 1; i >= 0; i -= 1) {

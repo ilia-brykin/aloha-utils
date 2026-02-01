@@ -1,21 +1,11 @@
 import {
-  eq,
   isArray,
 } from "../lang";
+import {
+  includesWith,
+} from "./_compareHelpers.js";
 
 type Comparator = (arrVal: unknown, othVal: unknown) => unknown;
-
-const includesWith = (
-  array: unknown[],
-  value: unknown,
-  comparator?: Comparator,
-): boolean => {
-  if (comparator) {
-    return array.some(item => comparator(value, item));
-  }
-
-  return array.some(item => eq(item, value));
-};
 
 /**
  * This method is like intersection except that it accepts comparator which is

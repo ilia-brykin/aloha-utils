@@ -1,11 +1,9 @@
 import {
-  eq,
   isArray,
 } from "../lang";
-
-const includesSameValueZero = (array: unknown[], value: unknown): boolean => {
-  return array.some(item => eq(item, value));
-};
+import {
+  includesSameValueZero,
+} from "./_compareHelpers.js";
 
 /**
  * Creates an array of unique values that are included in all given arrays.

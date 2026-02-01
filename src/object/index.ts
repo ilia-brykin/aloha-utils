@@ -1,2 +1,12 @@
 export { get } from "./get.js";
 export { set } from "./set.js";
+export { assign } from "./assign.js";
+export { assignIn } from "./assignIn.js";
+export { assignInWith } from "./assignInWith.js";
+export { assignWith } from "./assignWith.js";
+export { at } from "./at.js";
+export { create } from "./create.js";
+export { defaults } from "./defaults.js";
+export { defaultsDeep } from "./defaultsDeep.js";
+export { findKey } from "./findKey.js";
+export { findLastKey } from "./findLastKey.js";

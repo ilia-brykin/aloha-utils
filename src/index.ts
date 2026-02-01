@@ -176,6 +176,16 @@ export {
 export {
   get,
   set,
+  assign,
+  assignIn,
+  assignInWith,
+  assignWith,
+  at,
+  create,
+  defaults,
+  defaultsDeep,
+  findKey,
+  findLastKey,
 } from "./object/index.js";
 export {
   countBy,

@@ -12,11 +12,14 @@ import {
  * @return {string} The snake_cased string.
  *
  * @example
- * snakeCase("Foo Bar"); // "foo_bar"
- * snakeCase("fooBar"); // "foo_bar"
+ * snakeCase("Aloha Holla"); // "aloha_holla"
+ * snakeCase("alohaHolla"); // "aloha_holla"
  */
 export const snakeCase = (value: unknown): string => {
   const stringValue = toString(value);
+  if (stringValue.length === 0) {
+    return "";
+  }
 
   const parts = toLowerWords(stringValue);
   if (parts.length === 0) {

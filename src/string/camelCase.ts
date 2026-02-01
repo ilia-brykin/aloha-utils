@@ -12,12 +12,15 @@ import {
  * @return {string} The camelCased string.
  *
  * @example
- * camelCase("Foo Bar"); // "fooBar"
- * camelCase("__FOO_BAR__"); // "fooBar"
- * camelCase('--foo-bar--'); // "fooBar"
+ * camelCase("Aloha Holla"); // "alohaHolla""
+ * camelCase("__ALOHA_HOLLA__"); // "alohaHolla"
+ * camelCase('--aloha-holla--'); // "alohaHolla"
  */
 export const camelCase = (value: unknown): string => {
   const stringValue = toString(value);
+  if (stringValue.length === 0) {
+    return "";
+  }
 
   const parts = toLowerWords(stringValue);
   if (parts.length === 0) {

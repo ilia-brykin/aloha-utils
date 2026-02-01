@@ -12,8 +12,8 @@ describe("pascalCase function", () => {
   it("should return empty string for non-strings", () => {
     expect(pascalCase(null)).toBe("");
     expect(pascalCase(undefined)).toBe("");
-    expect(pascalCase(123)).toBe("");
-    expect(pascalCase({})).toBe("");
+    expect(pascalCase(123)).toBe("123");
+    expect(pascalCase({})).toBe("ObjectObject");
   });
 
   it("should convert to PascalCase", () => {

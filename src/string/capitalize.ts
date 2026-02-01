@@ -12,10 +12,10 @@ import {
  * capitalize("BORIS"); // "Boris"
  */
 export const capitalize = (value?: unknown): string => {
-  const str = toString(value);
-  if (str.length === 0) {
+  const stringValue = toString(value);
+  if (stringValue.length === 0) {
     return "";
   }
 
-  return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
+  return stringValue.charAt(0).toUpperCase() + stringValue.slice(1).toLowerCase();
 };

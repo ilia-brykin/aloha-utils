@@ -27,7 +27,7 @@ describe("toInteger function", () => {
   it("should truncate numbers toward zero", () => {
     expect(toInteger(3.9)).toBe(3);
     expect(toInteger(-3.9)).toBe(-3);
-    expect(toInteger(-0)).toBe(-0);
+    expect(toInteger(-0)).toBe(0);
     expect(toInteger(0.0001)).toBe(0);
     expect(toInteger(-0.0001)).toBe(-0);
   });

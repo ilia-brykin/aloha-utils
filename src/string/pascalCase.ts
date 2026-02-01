@@ -1,6 +1,9 @@
 import {
   toLowerWords,
 } from "./_shared.js";
+import {
+  toString,
+} from "../lang";
 
 /**
  * Converts a string to PascalCase.
@@ -9,15 +12,16 @@ import {
  * @return {string} The PascalCased string.
  *
  * @example
- * pascalCase("foo bar"); // "FooBar"
- * pascalCase("__FOO_BAR__"); // "FooBar"
+ * pascalCase("aloha holla"); // "AlohaHolla"
+ * pascalCase("__ALOHA_HOLLA__"); // "AlohaHolla"
  */
 export const pascalCase = (value: unknown): string => {
-  if (typeof value !== "string") {
+  const stringValue = toString(value);
+  if (stringValue.length === 0) {
     return "";
   }
 
-  const parts = toLowerWords(value);
+  const parts = toLowerWords(stringValue);
   if (parts.length === 0) {
     return "";
   }

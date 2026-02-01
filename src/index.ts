@@ -68,6 +68,7 @@ export {
   trimStart,
   truncate,
   unescape,
+  upperCase,
   isEmptyString,
   isNonEmptyString,
   kebabCase,

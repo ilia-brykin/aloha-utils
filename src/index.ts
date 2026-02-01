@@ -70,6 +70,7 @@ export {
   unescape,
   upperCase,
   upperFirst,
+  words,
   isEmptyString,
   isNonEmptyString,
   kebabCase,

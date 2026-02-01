@@ -195,5 +195,13 @@ export {
   map,
   orderBy,
   partition,
+  reduce,
+  reduceRight,
+  reject,
+  sample,
+  sampleSize,
+  shuffle,
+  size,
+  some,
   sortBy,
 } from "./collection/index.js";

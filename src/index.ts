@@ -180,6 +180,12 @@ export {
 export {
   countBy,
   every,
+  filter,
+  find,
+  findLast,
   forEach,
   forEachRight,
+  flatMap,
+  flatMapDeep,
+  flatMapDepth,
 } from "./collection/index.js";

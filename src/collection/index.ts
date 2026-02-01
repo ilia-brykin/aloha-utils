@@ -1,4 +1,10 @@
 export { countBy } from "./countBy.js";
 export { every } from "./every.js";
+export { filter } from "./filter.js";
+export { find } from "./find.js";
+export { findLast } from "./findLast.js";
 export { forEach } from "./forEach.js";
 export { forEachRight } from "./forEachRight.js";
+export { flatMap } from "./flatMap.js";
+export { flatMapDeep } from "./flatMapDeep.js";
+export { flatMapDepth } from "./flatMapDepth.js";

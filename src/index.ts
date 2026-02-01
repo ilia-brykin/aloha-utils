@@ -1,4 +1,7 @@
 export {
+  chunk,
+} from "./array/index.js";
+export {
   isArray,
   isArguments,
   isArrayLike,

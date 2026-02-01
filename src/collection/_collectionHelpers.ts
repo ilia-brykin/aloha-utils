@@ -51,3 +51,25 @@ export const forEachCollectionRight = (
     iteratee(source[key], key, collection);
   }
 };
+
+export const forEachCollectionValue = (
+  collection: unknown,
+  iteratee: (value: unknown, key: string | number, collection: unknown) => void,
+): void => {
+  if (!isCollection(collection)) {
+    return;
+  }
+
+  if (isArrayLike(collection)) {
+    const source = collection as ArrayLike<unknown>;
+    for (let index = 0; index < source.length; index += 1) {
+      iteratee(source[index], index, collection);
+    }
+    return;
+  }
+
+  const source = collection as Record<string, unknown>;
+  for (const key of Object.keys(source)) {
+    iteratee(source[key], key, collection);
+  }
+};

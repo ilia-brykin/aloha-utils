@@ -188,4 +188,12 @@ export {
   flatMap,
   flatMapDeep,
   flatMapDepth,
+  groupBy,
+  includes,
+  invokeMap,
+  keyBy,
+  map,
+  orderBy,
+  partition,
+  sortBy,
 } from "./collection/index.js";

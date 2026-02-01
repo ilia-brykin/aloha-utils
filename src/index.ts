@@ -1,6 +1,7 @@
 export {
   chunk,
   compact,
+  concat,
 } from "./array/index.js";
 export {
   isArray,

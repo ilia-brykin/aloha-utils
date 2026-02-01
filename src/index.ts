@@ -177,3 +177,9 @@ export {
   get,
   set,
 } from "./object/index.js";
+export {
+  countBy,
+  every,
+  forEach,
+  forEachRight,
+} from "./collection/index.js";

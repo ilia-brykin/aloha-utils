@@ -27,3 +27,4 @@ export { trimStart } from "./trimStart.js";
 export { truncate } from "./truncate.js";
 export { unescape } from "./unescape.js";
 export { upperCase } from "./upperCase.js";
+export { upperFirst } from "./upperFirst.js";

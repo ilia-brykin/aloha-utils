@@ -47,6 +47,12 @@ export {
   takeRight,
   takeRightWhile,
   takeWhile,
+  uniq,
+  uniqBy,
+  uniqWith,
+  union,
+  unionBy,
+  unionWith,
 } from "./array/index.js";
 export {
   isArray,

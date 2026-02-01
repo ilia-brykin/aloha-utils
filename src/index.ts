@@ -4,6 +4,7 @@ export {
   concat,
   difference,
   differenceBy,
+  differenceWith,
 } from "./array/index.js";
 export {
   isArray,

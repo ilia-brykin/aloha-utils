@@ -42,6 +42,11 @@ export {
   sortedLastIndexOf,
   sortedUniq,
   sortedUniqBy,
+  tail,
+  take,
+  takeRight,
+  takeRightWhile,
+  takeWhile,
 } from "./array/index.js";
 export {
   isArray,

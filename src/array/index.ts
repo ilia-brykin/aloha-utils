@@ -41,3 +41,8 @@ export { sortedLastIndexBy } from "./sortedLastIndexBy.js";
 export { sortedLastIndexOf } from "./sortedLastIndexOf.js";
 export { sortedUniq } from "./sortedUniq.js";
 export { sortedUniqBy } from "./sortedUniqBy.js";
+export { tail } from "./tail.js";
+export { take } from "./take.js";
+export { takeRight } from "./takeRight.js";
+export { takeRightWhile } from "./takeRightWhile.js";
+export { takeWhile } from "./takeWhile.js";

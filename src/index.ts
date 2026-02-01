@@ -5,6 +5,11 @@ export {
   difference,
   differenceBy,
   differenceWith,
+  pull,
+  pullAll,
+  pullAllBy,
+  pullAllWith,
+  pullAt,
 } from "./array/index.js";
 export {
   isArray,

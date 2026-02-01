@@ -4,3 +4,8 @@ export { concat } from "./concat.js";
 export { difference } from "./difference.js";
 export { differenceBy } from "./differenceBy.js";
 export { differenceWith } from "./differenceWith.js";
+export { pull } from "./pull.js";
+export { pullAll } from "./pullAll.js";
+export { pullAllBy } from "./pullAllBy.js";
+export { pullAllWith } from "./pullAllWith.js";
+export { pullAt } from "./pullAt.js";

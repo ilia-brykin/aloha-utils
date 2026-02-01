@@ -66,6 +66,7 @@ export {
   trim,
   trimEnd,
   trimStart,
+  truncate,
   isEmptyString,
   isNonEmptyString,
   kebabCase,

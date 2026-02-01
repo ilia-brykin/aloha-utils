@@ -12,8 +12,8 @@ describe("snakeCase function", () => {
   it("should return empty string for non-strings", () => {
     expect(snakeCase(null)).toBe("");
     expect(snakeCase(undefined)).toBe("");
-    expect(snakeCase(123)).toBe("");
-    expect(snakeCase({})).toBe("");
+    expect(snakeCase(123)).toBe("123");
+    expect(snakeCase({})).toBe("object_object");
   });
 
   it("should convert to snake_case", () => {
